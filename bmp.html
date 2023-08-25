@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My pipelines &mdash; BrainMRIpipelines 0.1 documentation</title>
+  <title>Brain MRI pipelines &mdash; BrainMRIpipelines 0.1 documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <!--[if lt IE 9]>
@@ -19,7 +19,8 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Brain MRI pipelines" href="bmp.html" /> 
+    <link rel="next" title="Input/output module" href="io.html" />
+    <link rel="prev" title="My pipelines" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -30,7 +31,7 @@
 
           
           
-          <a href="#" class="icon icon-home">
+          <a href="index.html" class="icon icon-home">
             BrainMRIpipelines
           </a>
               <div class="version">
@@ -44,9 +45,19 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <ul>
-<li class="toctree-l1"><a class="reference internal" href="bmp.html">Brain MRI pipelines</a></li>
-<li class="toctree-l1"><a class="reference internal" href="svdd.html">Cerebral Small Vessel Disease Lesion Detectors</a></li>
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Brain MRI pipelines</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#modules">Modules</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="io.html">Input/output module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="asl.html">Arterial spin labelling (ASL)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="dwi.html">Diffusion-weighted imaging (DWI)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="rsfmri.html">Resting-state BOLD imaging</a></li>
+<li class="toctree-l3"><a class="reference internal" href="misc.html">Miscellaneous tips</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="svdd.html">Cerebral Small Vessel Disease Lesion Detectors (SVD Detector)</a></li>
 </ul>
 
         </div>
@@ -55,17 +66,17 @@
 
     <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="#">BrainMRIpipelines</a>
+          <a href="index.html">BrainMRIpipelines</a>
       </nav>
 
       <div class="wy-nav-content">
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">My pipelines</li>
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Brain MRI pipelines</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="_sources/bmp.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -73,22 +84,30 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <p>My name is Jiyang Jiang. I am a Research Fellow from</p>
-<section id="my-pipelines">
-<h1>My pipelines<a class="headerlink" href="#my-pipelines" title="Link to this heading"></a></h1>
+  <section id="brain-mri-pipelines">
+<h1>Brain MRI pipelines<a class="headerlink" href="#brain-mri-pipelines" title="Link to this heading"></a></h1>
+<p>BrainMRIpipelines (BMP) record how I process neuroimaging data at Centre for Healthy Brain Ageing (CHeBA), University of New South Wales. The purposes are to allow future replication of results, and educate new PhD students. Also, the processing steps and some tips and tricks can be generalised to other datasets.</p>
+<p>This document is maintained by Dr. Jiyang Jiang.</p>
+<section id="modules">
+<h2>Modules<a class="headerlink" href="#modules" title="Link to this heading"></a></h2>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="bmp.html">Brain MRI pipelines</a></li>
-<li class="toctree-l1"><a class="reference internal" href="svdd.html">Cerebral Small Vessel Disease Lesion Detectors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="io.html">Input/output module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="asl.html">Arterial spin labelling (ASL)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dwi.html">Diffusion-weighted imaging (DWI)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rsfmri.html">Resting-state BOLD imaging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="misc.html">Miscellaneous tips</a></li>
 </ul>
 </div>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="bmp.html" class="btn btn-neutral float-right" title="Brain MRI pipelines" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="My pipelines" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="io.html" class="btn btn-neutral float-right" title="Input/output module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
